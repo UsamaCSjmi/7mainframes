@@ -2,14 +2,14 @@
 <!-- Navbar Section -->
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <div class="container container">
-    <a class="navbar-brand" href="#">7MainFrames.</a>
+    <a class="navbar-brand" href="<?php echo SITE_PATH?>">7MainFrames.</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#main">Home</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#features">About Us</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>">Home</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/about">About Us</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pricing">Services</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li>
         <li class="nav-item"><a class="btn-cta nav-link js-scroll-trigger" href="#cta">Contact Us</a></li>

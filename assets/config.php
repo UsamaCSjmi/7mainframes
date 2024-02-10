@@ -1,18 +1,18 @@
 <?php
 
 // Development Settings Usama
-// define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
-// define('SITE_PATH','http://localhost/development/7mainframes');
-// define('BASE_PATH','/development/7mainframes');
+define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
+define('SITE_PATH','http://localhost/development/7mainframes');
+define('BASE_PATH','/development/7mainframes');
 // define('DB_NAME', '7mainframes'); 
 // define('DB_USER', 'root');
 // define('DB_PASSWORD', '');
 // define('DB_HOST', 'localhost');
 
 // Production Settings
-define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT']);
-define('SITE_PATH','https://development.7mainframes.com/');
-define('BASE_PATH','https://development.7mainframes.com/');
+// define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT']);
+// define('SITE_PATH','https://development.7mainframes.com/');
+// define('BASE_PATH','https://development.7mainframes.com/');
 // define('DB_NAME', '7mainframes'); 
 // define('DB_USER', 'root');
 // define('DB_PASSWORD', '');
@@ -27,9 +27,11 @@ $current_page_arr = explode('.',$current_page);
 $current_page = $current_page_arr[0];
 // die($current_page);
 $description = array(
-    "home" => "7mainframes | Home"
+    "home" => "7mainframes | Home",
+    "about" => "7mainframes | About"
 );
 $title = array(
-    "home" => "7mainframes | Home"
+    "home" => "7mainframes | Home",
+    "about" => "7mainframes | About"
 );
 ?>

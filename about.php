@@ -5,7 +5,7 @@
                 <div class="hero-content">
                     <p class="yd_alert">
                         <span>New</span>
-                        <a href="#">Lorem ipsum dolor sit.</a>
+                        <a href="#">About Us</a>
                     </p>
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing. </h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
