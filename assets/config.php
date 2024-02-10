@@ -1,9 +1,18 @@
 <?php
 
 // Development Settings Usama
-define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
-define('SITE_PATH','http://localhost/development/7mainframes');
-define('BASE_PATH','/development/7mainframes');
+// define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
+// define('SITE_PATH','http://localhost/development/7mainframes');
+// define('BASE_PATH','/development/7mainframes');
+// define('DB_NAME', '7mainframes'); 
+// define('DB_USER', 'root');
+// define('DB_PASSWORD', '');
+// define('DB_HOST', 'localhost');
+
+// Production Settings
+define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT']);
+define('SITE_PATH','https://development.7mainframes.com/');
+define('BASE_PATH','https://development.7mainframes.com/');
 // define('DB_NAME', '7mainframes'); 
 // define('DB_USER', 'root');
 // define('DB_PASSWORD', '');
@@ -21,6 +30,6 @@ $description = array(
     "home" => "7mainframes | Home"
 );
 $title = array(
-    "home" => "IMC Consultancy | Home"
+    "home" => "7mainframes | Home"
 );
 ?>
