@@ -1,45 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex,nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>7 Main Frames</title>
-</head>
-<body>
-    <div class="form-wrapper">
-        <form action="">
-            <h1>Welcome to 7 Main Frames</h1>
-            <p>Write to us, we will reach you out.</p>
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="name">Name:*</label>
-                    <input type="text" required>
-                </div>
-                <div class="form-group">
-                    <label for="name">Email:*</label>
-                    <input type="email" required>
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="name">Phone:*</label>
-                    <input type="number" required>
-                </div>
-                <div class="form-group">
-                    <label for="name">City:</label>
-                    <input type="text">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea name="message" cols="30" rows="10"></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-    </div>
-</body>
-</html>
+<?php
+include_once("assets/config.php");
+$request = $url;
+$router = str_replace(BASE_PATH,'',$request);
+
+if($router == '/'){
+    include_once('home.php');
+}
+elseif($router == '/about'){
+    include_once('about.php');
+}
+elseif($router == '/gallery'){
+    include_once('gallery.php');
+}
+elseif($router == '/mbbs' || preg_match("/mbbs\/*/i",$router)){
+    $arr = explode('/',$router);
+    include_once('country.php');
+}
+elseif($router == '/university' || preg_match("/university\/*/i",$router)){
+    $arr = explode('/',$router);
+    include_once('university.php');
+}
+else if($router =='/contact'){
+    include_once('Contact.php');
+}
+else{
+    include_once('404.php');
+}
+
+// echo $router;
+?>
