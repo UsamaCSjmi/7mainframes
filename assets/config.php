@@ -1,14 +1,14 @@
 <?php
 
 // Development Settings Usama
-// define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
-// define('SITE_PATH','http://localhost/development/7mainframes');
-// define('BASE_PATH','/development/7mainframes');
+define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
+define('SITE_PATH','http://localhost/development/7mainframes');
+define('BASE_PATH','/development/7mainframes');
 
 // Development Settings Danish
-define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
-define('SITE_PATH','http://localhost/7mainframes');
-define('BASE_PATH','/7mainframes');
+// define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
+// define('SITE_PATH','http://localhost/7mainframes');
+// define('BASE_PATH','/7mainframes');
 
 // define('DB_NAME', '7mainframes'); 
 // define('DB_USER', 'root');
@@ -41,10 +41,12 @@ if($current_page == "contact" || $current_page == "index" ||$current_page == "")
 }
 $description = array(
     "home" => "7mainframes | Home",
-    "about" => "7mainframes | About"
+    "about" => "7mainframes | About",
+    "contact" => "7mainframes | Contact"
 );
 $title = array(
     "home" => "7mainframes | Home",
-    "about" => "7mainframes | About"
+    "about" => "7mainframes | About",
+    "contact" => "7mainframes | Contact"
 );
 ?>

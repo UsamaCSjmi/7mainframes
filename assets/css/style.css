@@ -198,6 +198,23 @@ body {
 	display: none;
 }
 
+.box{
+	align-items: center;
+    flex-basis: calc(50% - 24px);
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 15px 10px;
+    position: relative;
+    background: rgb(248, 249, 250);
+    background: #1e266d;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 0;
+    transition: box-shadow .3s ease-in-out;
+}
 
 /*------ Navbar Styling ------*/
 
@@ -1937,7 +1954,7 @@ ul#countdown li {
 	text-align: none;
 }
 
-.form input {
+.form input, .form textarea {
   color: #222222;
   font-family: 'Montserrat';
   padding: 0;
@@ -1951,8 +1968,11 @@ ul#countdown li {
   padding: 0 100px 0 20px;
 	box-shadow: 0 5px 30px rgba(255, 255, 255, 0.1);
 }
-
-.form input:focus {
+.form textarea{
+	height: unset;
+	padding: 20px;
+}
+.form input:focus, .form textarea:focus  {
 	outline: none !important;
 	border-color: transparent;
 }
@@ -1977,7 +1997,9 @@ ul#countdown li {
 	-moz-transition: 500ms;
 	transition: 500ms;
 }
-
+.form-btn{
+	margin-left: 0!important;
+}
 #email-error {
 	position: absolute;
 	left: 20%;
@@ -2041,7 +2063,9 @@ ul#countdown li {
 	font-size: 12px;
 }
 
-
+.split_text_inner .form-group,.split_text_inner input,.split_text_inner textarea{
+	width: 100%;
+}
 
 /*------------------------------------------
 -------------- Media Queries ---------------
@@ -2392,4 +2416,11 @@ ul#countdown li {
 		bottom: -25%;
 	}
 
+}
+.contact_map{
+	height: 500px;
+}
+.contact_map iframe{
+	height: 100%;
+	width: 100%;
 }

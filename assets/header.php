@@ -12,7 +12,7 @@
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/about">About Us</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pricing">Services</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li>
-        <li class="nav-item"><a class="btn-cta nav-link js-scroll-trigger" href="#cta">Contact Us</a></li>
+        <li class="nav-item"><a class="btn-cta nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/contact">Contact Us</a></li>
         </ul>
         <ul class="navbar-nav ml-auto">
         <li><a class="btn-action btn-nav ml-auto" href="#">Download</a></li>
