@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
+    
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body class="boxed-layout">
