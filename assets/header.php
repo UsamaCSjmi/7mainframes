@@ -10,8 +10,11 @@
         <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>">Home</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/about">About Us</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pricing">Services</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/seo">SEO</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/ppc">PPC</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/web-development">Web Development</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/social-media-marketing">Social Media</a></li>
+        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li> -->
         <li class="nav-item"><a class="btn-cta nav-link js-scroll-trigger" href="<?php echo SITE_PATH?>/contact">Contact Us</a></li>
         </ul>
         <ul class="navbar-nav ml-auto">
