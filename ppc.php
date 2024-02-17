@@ -96,7 +96,7 @@
     <div class="container">
         <div class="yd_flex">
             <div class="flex_main">
-                <div class="flex_sub" style="flex-basis:calc(100% - 48px)">
+                <div class="flex_sub no-border" style="flex-basis:calc(100% - 48px)">
                     <div class="sub_text">
                         <h2>Our PPC Services Include</h2>
                         <p>Grow your business with our secure storage, powerful computing, and integrated analytics at affordable price.</p>

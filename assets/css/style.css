@@ -962,6 +962,14 @@ body {
   margin-bottom: 0;
   transition: box-shadow .3s ease-in-out;
 }
+.tech-stack .flex_sub{
+	flex-basis: calc(33.333333% - 15.999999px);
+}
+@media only screen and (max-width:768px) {
+	.tech-stack .flex_sub{
+		flex-basis: calc(50% - 24px);
+	}
+}
 .flex_sub_4{
 	flex-basis: calc(25% - 12px);
 }
@@ -1239,6 +1247,9 @@ body {
 	padding: 20px;
 }
 .web-dev{
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(../images/web-dev.jpg) no-repeat center center;
+}
+.smm{
 	background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(../images/web-dev.jpg) no-repeat center center;
 }
 
