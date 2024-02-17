@@ -544,6 +544,12 @@ body {
 	text-decoration: none;
 }
 
+.btn-alt-2{
+	background: #1e266d;
+	color: #040e1a !important;
+	border: 1px solid #1e266d !important;
+}
+
 .hero2 {
 	background: #1e266d;
 }
@@ -889,6 +895,9 @@ body {
 	padding: 100px 0 100px 0;
 	background: #1e266d;
 }
+.ft_single_2{
+	background: #23D3D3;
+}
 
 .yd_flex {
 	display: block;
@@ -953,11 +962,25 @@ body {
   margin-bottom: 0;
   transition: box-shadow .3s ease-in-out;
 }
+.flex_sub_4{
+	flex-basis: calc(25% - 12px);
+}
 
 .flex_sub:hover {
 	box-shadow:0 0 20px rgba(0, 0, 0, .1);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	background: #0c0c4a;
+}
+.no-border{
+	border: none !important;
+}
+.ft_single_2 .flex_sub{
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: #23D3D3;
+}
+
+.ft_single_2 .flex_sub:hover{
+	background: #188d8d;
 }
 
 .flex_sub .sub_image {
@@ -971,6 +994,22 @@ body {
 
 .flex_sub .sub_text {
 	text-align: center;
+}
+
+.flex_sub .sub_text h1 {
+	font-size: 35px;
+	font-weight: 600;
+	line-height: 3;
+	color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 5px;
+}
+
+.flex_sub .sub_text h2 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 2;
+	color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 5px;
 }
 
 .flex_sub .sub_text h4 {
@@ -1199,12 +1238,20 @@ body {
 	background-size: cover;
 	padding: 20px;
 }
+.web-dev{
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(../images/web-dev.jpg) no-repeat center center;
+}
 
 .yd_rev_bg .rev_block {
 	padding: 30px;
 	max-width: 420px;
 	background: #FFFFFF;
 	overflow: hidden;
+}
+.web-dev .rev_block{
+	border-radius: 20px;
+	background: #ffffff1e;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .yd_rev_bg .rev_img {
@@ -1224,6 +1271,9 @@ body {
 	line-height: 1.4;
 	margin-bottom: 15px;
 }
+.web-dev .rev_txt h3{
+	color: #ffffff;
+}
 
 .yd_rev_bg .rev_txt p {
 	font-size: 16px;
@@ -1233,6 +1283,10 @@ body {
 	margin-bottom: 20px;
 }
 
+.web-dev .rev_txt p {
+	color: #cdcdcd;
+}
+
 .yd_rev_bg .rev_txt h6 {
 	font-size: 14px;
 	color: #888888;
@@ -1240,8 +1294,6 @@ body {
 	line-height: 1.4;
 	margin-bottom: 3px;
 }
-
-
 
 /*-----------------------------------------------------------
 ------------------- Split Features Styling ------------------
