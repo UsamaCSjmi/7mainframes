@@ -922,6 +922,10 @@ body {
 	margin-bottom: 15px;
 }
 
+
+.hero{
+    padding: 100px 0;
+}
 .yd_flex_1 .flex_content p {
 	font-size: 16px;
 	font-weight: 500;
@@ -1639,7 +1643,7 @@ body {
 .split_home .flx_1 {
 	background: #1E3B70;
 	background: #dbd9cd;
-	background: #1e266d;
+	/* background: #1e266d; */
 	line-height: normal;
 	order: 1;
 	min-height: 600px;

@@ -1,14 +1,14 @@
 <?php
 
 // Development Settings Usama
-define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
-define('SITE_PATH','http://localhost/development/7mainframes');
-define('BASE_PATH','/development/7mainframes');
+// define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
+// define('SITE_PATH','http://localhost/development/7mainframes');
+// define('BASE_PATH','/development/7mainframes');
 
 // Development Settings Danish
-// define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
-// define('SITE_PATH','http://localhost/7mainframes');
-// define('BASE_PATH','/7mainframes');
+define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/7mainframes');
+define('SITE_PATH','http://localhost/7mainframes');
+define('BASE_PATH','/7mainframes');
 
 
 // Production Settings

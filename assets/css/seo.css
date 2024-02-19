@@ -1,0 +1,36 @@
+.container-custom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 400px;
+    background-color: #1E266D;
+    border-radius: 0 20% 20% 0; 
+    overflow: hidden;
+/* font-size: 20vw; */
+}
+    
+.seo-section {
+   
+    color: white; 
+}
+.check{
+    /* background-color: aqua; */
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* width: ; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 20px;
+}
+.check >h3{
+    margin-top: 10px;
+    color: #1E266D;
+    width: 100%;
+    /* background-color: red; */
+}
+.form-check{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}

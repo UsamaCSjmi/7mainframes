@@ -55,11 +55,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
+           </div>
+           </div>
+ </div>
 
-<div class="yd_ft_cst ft_cst2">
+ <div class="yd_ft_cst ft_cst2">
     <div class="container">
         <div class="row">
             <div class="flex-inner">
@@ -106,10 +106,10 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- <div class="yd_ft_cst ft_cst2">
-    <div class="w-100 row">
+     </div>
+       </div>
+              <!-- <div class="yd_ft_cst ft_cst2">
+          <div class="w-100 row">
         <div class="col-lg-6 col-md-12">
             <div class="contact_map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28021.51540094592!2d77.21230520898897!3d28.60909256959653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1707847207658!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -146,6 +146,6 @@
                 <div id="response"></div>
             </div>
         </div>
-    </div>
-</div> -->
+            </div>
+              </div> -->
 <?php include_once "./assets/footer.php"; ?>
