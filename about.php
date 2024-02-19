@@ -12,6 +12,7 @@
                     <a class="btn-action" href="#">Get started</a>
                 </div>
             </div>
+           
         </div>
     </div>
 
